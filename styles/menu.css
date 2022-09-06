@@ -1,0 +1,22 @@
+.res-menu{
+    position: absolute;
+    top: -200px; 
+    z-index: 2;
+    background-color: #333;
+    width: 100vw;
+    text-align: center;
+    transition: .5s ease;
+}
+.res-menu li{
+    margin: 1.5rem 0;
+}
+.res-menu a{
+    color: #ddd;
+    font-size: 3rem;
+}
+.res-menu a:hover{
+    color: #3498db;
+}
+.res-menu.activated{
+    top: calc(100% + 140px);
+}
